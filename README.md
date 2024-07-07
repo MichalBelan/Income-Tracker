@@ -1,6 +1,38 @@
-# income-tracker
+# Aplikácia na Sledovanie Príjmov
 
-This template should help get you started developing with Vue 3 in Vite.
+Jednoduchá Vue.js aplikácia pre sledovanie príjmov. 
+Umožňuje používateľovi pridávať nové príjmy s popisom, hodnotou a dátumom, ktoré sú následne zobrazované v zozname. 
+Používateľ tiež môže odstraňovať jednotlivé položky príjmov.
+
+## Funkcie
+
+- Pridávanie nových príjmov s popisom, hodnotou a dátumom.
+- Zobrazovanie zoznamu príjmov, zoradeného od najnovšieho k najstaršiemu.
+- Možnosť odstraňovať jednotlivé položky príjmov.
+
+## Použitie
+
+1. **Pridanie Príjmu**:
+   - Vyplňte formulár s popisom, hodnotou a dátumom a kliknite na tlačidlo **Submit**.
+   - Nový príjem sa automaticky pridá do zoznamu.
+
+2. **Odstránenie Príjmu**:
+   - Kliknite na tlačidlo **x** vedľa položky príjmu v zozname.
+   - Položka príjmu bude odstránená zo zoznamu.
+
+## Technológie
+
+- Vue.js
+- JavaScript (ES6+)
+- HTML5
+- CSS3
+
+## Inštalácia
+
+1. **Klonovanie Repozitára**:
+   ```bash
+   git clone https://github.com/your-username/income-tracker-app.git
+
 
 ## Recommended IDE Setup
 
